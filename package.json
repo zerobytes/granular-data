@@ -1,6 +1,6 @@
 {
   "name": "@granularjs/data",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Higher-level data primitives for @granularjs/core: query, mutation, persistence, async forms.",
   "type": "module",
   "main": "./src/index.js",
@@ -10,7 +10,10 @@
     "./persist": "./src/persist.js",
     "./form-async": "./src/form-async.js"
   },
-  "files": ["src", "README.md"],
+  "files": [
+    "src",
+    "README.md"
+  ],
   "scripts": {
     "test": "node ./scripts/run-tests.mjs",
     "prepublishOnly": "npm test",
@@ -28,7 +31,13 @@
     "fake-indexeddb": "^6.0.0"
   },
   "license": "Apache-2.0",
-  "keywords": ["granular", "query", "persist", "forms", "data"],
+  "keywords": [
+    "granular",
+    "query",
+    "persist",
+    "forms",
+    "data"
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/zerobytes/granular-data.git"
